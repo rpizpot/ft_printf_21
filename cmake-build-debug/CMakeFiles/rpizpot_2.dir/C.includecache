@@ -1,0 +1,26 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/rpizpot/ft_printf_team/rpizpot_2/ft_printf.h
+stdarg.h
+-
+unistd.h
+-
+stdlib.h
+-
+ctype.h
+-
+
+/Users/rpizpot/ft_printf_team/rpizpot_2/main.c
+stdio.h
+-
+unistd.h
+-
+ft_printf.h
+/Users/rpizpot/ft_printf_team/rpizpot_2/ft_printf.h
+

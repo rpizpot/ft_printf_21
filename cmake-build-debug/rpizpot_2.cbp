@@ -100,6 +100,12 @@
 		<Unit filename="/Users/rpizpot/ft_printf_team/rpizpot_2/ft_bzero.c">
 			<Option target="rpizpot_2"/>
 		</Unit>
+		<Unit filename="/Users/rpizpot/ft_printf_team/rpizpot_2/ft_color_print.c">
+			<Option target="rpizpot_2"/>
+		</Unit>
+		<Unit filename="/Users/rpizpot/ft_printf_team/rpizpot_2/ft_count_until.c">
+			<Option target="rpizpot_2"/>
+		</Unit>
 		<Unit filename="/Users/rpizpot/ft_printf_team/rpizpot_2/ft_float.c">
 			<Option target="rpizpot_2"/>
 		</Unit>
@@ -107,6 +113,9 @@
 			<Option target="rpizpot_2"/>
 		</Unit>
 		<Unit filename="/Users/rpizpot/ft_printf_team/rpizpot_2/ft_int.c">
+			<Option target="rpizpot_2"/>
+		</Unit>
+		<Unit filename="/Users/rpizpot/ft_printf_team/rpizpot_2/ft_itoa.c">
 			<Option target="rpizpot_2"/>
 		</Unit>
 		<Unit filename="/Users/rpizpot/ft_printf_team/rpizpot_2/ft_long_composition.c">
@@ -133,7 +142,13 @@
 		<Unit filename="/Users/rpizpot/ft_printf_team/rpizpot_2/ft_long_sum_dot.c">
 			<Option target="rpizpot_2"/>
 		</Unit>
+		<Unit filename="/Users/rpizpot/ft_printf_team/rpizpot_2/ft_make_precision.c">
+			<Option target="rpizpot_2"/>
+		</Unit>
 		<Unit filename="/Users/rpizpot/ft_printf_team/rpizpot_2/ft_memalloc.c">
+			<Option target="rpizpot_2"/>
+		</Unit>
+		<Unit filename="/Users/rpizpot/ft_printf_team/rpizpot_2/ft_minus_str.c">
 			<Option target="rpizpot_2"/>
 		</Unit>
 		<Unit filename="/Users/rpizpot/ft_printf_team/rpizpot_2/ft_octal.c">
@@ -149,6 +164,12 @@
 			<Option target="rpizpot_2"/>
 		</Unit>
 		<Unit filename="/Users/rpizpot/ft_printf_team/rpizpot_2/ft_printf_f.c">
+			<Option target="rpizpot_2"/>
+		</Unit>
+		<Unit filename="/Users/rpizpot/ft_printf_team/rpizpot_2/ft_remake_str.c">
+			<Option target="rpizpot_2"/>
+		</Unit>
+		<Unit filename="/Users/rpizpot/ft_printf_team/rpizpot_2/ft_size.c">
 			<Option target="rpizpot_2"/>
 		</Unit>
 		<Unit filename="/Users/rpizpot/ft_printf_team/rpizpot_2/ft_strcmp.c">
@@ -179,6 +200,12 @@
 			<Option target="rpizpot_2"/>
 		</Unit>
 		<Unit filename="/Users/rpizpot/ft_printf_team/rpizpot_2/ft_strrjoin.c">
+			<Option target="rpizpot_2"/>
+		</Unit>
+		<Unit filename="/Users/rpizpot/ft_printf_team/rpizpot_2/ft_type_e.c">
+			<Option target="rpizpot_2"/>
+		</Unit>
+		<Unit filename="/Users/rpizpot/ft_printf_team/rpizpot_2/ft_type_e_l.c">
 			<Option target="rpizpot_2"/>
 		</Unit>
 		<Unit filename="/Users/rpizpot/ft_printf_team/rpizpot_2/ft_unsigned_int.c">

@@ -16,11 +16,7 @@ stdlib.h
 ctype.h
 -
 
-/Users/rpizpot/ft_printf_team/rpizpot_2/main.c
-stdio.h
--
-unistd.h
--
+/Users/rpizpot/ft_printf_team/rpizpot_2/inicialization.c
 ft_printf.h
 /Users/rpizpot/ft_printf_team/rpizpot_2/ft_printf.h
 

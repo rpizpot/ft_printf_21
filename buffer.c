@@ -79,7 +79,9 @@ t_buf *filling_buf_byspace(t_list *print, t_buf *for_buf)
 	size_t i;
 
 	i = 0;
-	if (print->zero == '0' && print->precision > 0)
+	if (print->zero == '0' && print->precision > 0 && (print->type == 'd'
+	|| print->type == 'i' || print->type == 'o' || print->type == 'x'
+	|| print->type == 'X'))
 		print->zero = ' ';
 	if (print->minus == '-')
 		print->zero = ' ';

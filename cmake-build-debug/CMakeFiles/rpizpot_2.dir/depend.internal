@@ -18,6 +18,9 @@ CMakeFiles/rpizpot_2.dir/ft_atoi_width.c.o
  /Users/rpizpot/ft_printf_team/rpizpot_2/ft_printf.h
 CMakeFiles/rpizpot_2.dir/ft_bzero.c.o
  /Users/rpizpot/ft_printf_team/rpizpot_2/ft_bzero.c
+CMakeFiles/rpizpot_2.dir/ft_count_until.c.o
+ /Users/rpizpot/ft_printf_team/rpizpot_2/ft_count_until.c
+ /Users/rpizpot/ft_printf_team/rpizpot_2/ft_printf.h
 CMakeFiles/rpizpot_2.dir/ft_float.c.o
  /Users/rpizpot/ft_printf_team/rpizpot_2/ft_float.c
  /Users/rpizpot/ft_printf_team/rpizpot_2/ft_printf.h
@@ -26,6 +29,9 @@ CMakeFiles/rpizpot_2.dir/ft_hex.c.o
  /Users/rpizpot/ft_printf_team/rpizpot_2/ft_printf.h
 CMakeFiles/rpizpot_2.dir/ft_int.c.o
  /Users/rpizpot/ft_printf_team/rpizpot_2/ft_int.c
+ /Users/rpizpot/ft_printf_team/rpizpot_2/ft_printf.h
+CMakeFiles/rpizpot_2.dir/ft_itoa.c.o
+ /Users/rpizpot/ft_printf_team/rpizpot_2/ft_itoa.c
  /Users/rpizpot/ft_printf_team/rpizpot_2/ft_printf.h
 CMakeFiles/rpizpot_2.dir/ft_long_composition.c.o
  /Users/rpizpot/ft_printf_team/rpizpot_2/ft_long_composition.c
@@ -51,8 +57,14 @@ CMakeFiles/rpizpot_2.dir/ft_long_sum.c.o
 CMakeFiles/rpizpot_2.dir/ft_long_sum_dot.c.o
  /Users/rpizpot/ft_printf_team/rpizpot_2/ft_long_sum_dot.c
  /Users/rpizpot/ft_printf_team/rpizpot_2/ft_printf.h
+CMakeFiles/rpizpot_2.dir/ft_make_precision.c.o
+ /Users/rpizpot/ft_printf_team/rpizpot_2/ft_make_precision.c
+ /Users/rpizpot/ft_printf_team/rpizpot_2/ft_printf.h
 CMakeFiles/rpizpot_2.dir/ft_memalloc.c.o
  /Users/rpizpot/ft_printf_team/rpizpot_2/ft_memalloc.c
+ /Users/rpizpot/ft_printf_team/rpizpot_2/ft_printf.h
+CMakeFiles/rpizpot_2.dir/ft_minus_str.c.o
+ /Users/rpizpot/ft_printf_team/rpizpot_2/ft_minus_str.c
  /Users/rpizpot/ft_printf_team/rpizpot_2/ft_printf.h
 CMakeFiles/rpizpot_2.dir/ft_octal.c.o
  /Users/rpizpot/ft_printf_team/rpizpot_2/ft_octal.c
@@ -66,6 +78,11 @@ CMakeFiles/rpizpot_2.dir/ft_printf.c.o
 CMakeFiles/rpizpot_2.dir/ft_printf_f.c.o
  /Users/rpizpot/ft_printf_team/rpizpot_2/ft_printf.h
  /Users/rpizpot/ft_printf_team/rpizpot_2/ft_printf_f.c
+CMakeFiles/rpizpot_2.dir/ft_remake_str.c.o
+ /Users/rpizpot/ft_printf_team/rpizpot_2/ft_printf.h
+ /Users/rpizpot/ft_printf_team/rpizpot_2/ft_remake_str.c
+CMakeFiles/rpizpot_2.dir/ft_size.c.o
+ /Users/rpizpot/ft_printf_team/rpizpot_2/ft_size.c
 CMakeFiles/rpizpot_2.dir/ft_strcmp.c.o
  /Users/rpizpot/ft_printf_team/rpizpot_2/ft_printf.h
  /Users/rpizpot/ft_printf_team/rpizpot_2/ft_strcmp.c
@@ -96,6 +113,12 @@ CMakeFiles/rpizpot_2.dir/ft_strnew_zero.c.o
 CMakeFiles/rpizpot_2.dir/ft_strrjoin.c.o
  /Users/rpizpot/ft_printf_team/rpizpot_2/ft_printf.h
  /Users/rpizpot/ft_printf_team/rpizpot_2/ft_strrjoin.c
+CMakeFiles/rpizpot_2.dir/ft_type_e.c.o
+ /Users/rpizpot/ft_printf_team/rpizpot_2/ft_printf.h
+ /Users/rpizpot/ft_printf_team/rpizpot_2/ft_type_e.c
+CMakeFiles/rpizpot_2.dir/ft_type_e_l.c.o
+ /Users/rpizpot/ft_printf_team/rpizpot_2/ft_printf.h
+ /Users/rpizpot/ft_printf_team/rpizpot_2/ft_type_e_l.c
 CMakeFiles/rpizpot_2.dir/ft_unsigned_int.c.o
  /Users/rpizpot/ft_printf_team/rpizpot_2/ft_printf.h
  /Users/rpizpot/ft_printf_team/rpizpot_2/ft_unsigned_int.c

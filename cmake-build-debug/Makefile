@@ -285,6 +285,60 @@ ft_bzero.c.s:
 	$(MAKE) -f CMakeFiles/rpizpot_2.dir/build.make CMakeFiles/rpizpot_2.dir/ft_bzero.c.s
 .PHONY : ft_bzero.c.s
 
+ft_color_print.o: ft_color_print.c.o
+
+.PHONY : ft_color_print.o
+
+# target to build an object file
+ft_color_print.c.o:
+	$(MAKE) -f CMakeFiles/rpizpot_2.dir/build.make CMakeFiles/rpizpot_2.dir/ft_color_print.c.o
+.PHONY : ft_color_print.c.o
+
+ft_color_print.i: ft_color_print.c.i
+
+.PHONY : ft_color_print.i
+
+# target to preprocess a source file
+ft_color_print.c.i:
+	$(MAKE) -f CMakeFiles/rpizpot_2.dir/build.make CMakeFiles/rpizpot_2.dir/ft_color_print.c.i
+.PHONY : ft_color_print.c.i
+
+ft_color_print.s: ft_color_print.c.s
+
+.PHONY : ft_color_print.s
+
+# target to generate assembly for a file
+ft_color_print.c.s:
+	$(MAKE) -f CMakeFiles/rpizpot_2.dir/build.make CMakeFiles/rpizpot_2.dir/ft_color_print.c.s
+.PHONY : ft_color_print.c.s
+
+ft_count_until.o: ft_count_until.c.o
+
+.PHONY : ft_count_until.o
+
+# target to build an object file
+ft_count_until.c.o:
+	$(MAKE) -f CMakeFiles/rpizpot_2.dir/build.make CMakeFiles/rpizpot_2.dir/ft_count_until.c.o
+.PHONY : ft_count_until.c.o
+
+ft_count_until.i: ft_count_until.c.i
+
+.PHONY : ft_count_until.i
+
+# target to preprocess a source file
+ft_count_until.c.i:
+	$(MAKE) -f CMakeFiles/rpizpot_2.dir/build.make CMakeFiles/rpizpot_2.dir/ft_count_until.c.i
+.PHONY : ft_count_until.c.i
+
+ft_count_until.s: ft_count_until.c.s
+
+.PHONY : ft_count_until.s
+
+# target to generate assembly for a file
+ft_count_until.c.s:
+	$(MAKE) -f CMakeFiles/rpizpot_2.dir/build.make CMakeFiles/rpizpot_2.dir/ft_count_until.c.s
+.PHONY : ft_count_until.c.s
+
 ft_float.o: ft_float.c.o
 
 .PHONY : ft_float.o
@@ -365,6 +419,33 @@ ft_int.s: ft_int.c.s
 ft_int.c.s:
 	$(MAKE) -f CMakeFiles/rpizpot_2.dir/build.make CMakeFiles/rpizpot_2.dir/ft_int.c.s
 .PHONY : ft_int.c.s
+
+ft_itoa.o: ft_itoa.c.o
+
+.PHONY : ft_itoa.o
+
+# target to build an object file
+ft_itoa.c.o:
+	$(MAKE) -f CMakeFiles/rpizpot_2.dir/build.make CMakeFiles/rpizpot_2.dir/ft_itoa.c.o
+.PHONY : ft_itoa.c.o
+
+ft_itoa.i: ft_itoa.c.i
+
+.PHONY : ft_itoa.i
+
+# target to preprocess a source file
+ft_itoa.c.i:
+	$(MAKE) -f CMakeFiles/rpizpot_2.dir/build.make CMakeFiles/rpizpot_2.dir/ft_itoa.c.i
+.PHONY : ft_itoa.c.i
+
+ft_itoa.s: ft_itoa.c.s
+
+.PHONY : ft_itoa.s
+
+# target to generate assembly for a file
+ft_itoa.c.s:
+	$(MAKE) -f CMakeFiles/rpizpot_2.dir/build.make CMakeFiles/rpizpot_2.dir/ft_itoa.c.s
+.PHONY : ft_itoa.c.s
 
 ft_long_composition.o: ft_long_composition.c.o
 
@@ -582,6 +663,33 @@ ft_long_sum_dot.c.s:
 	$(MAKE) -f CMakeFiles/rpizpot_2.dir/build.make CMakeFiles/rpizpot_2.dir/ft_long_sum_dot.c.s
 .PHONY : ft_long_sum_dot.c.s
 
+ft_make_precision.o: ft_make_precision.c.o
+
+.PHONY : ft_make_precision.o
+
+# target to build an object file
+ft_make_precision.c.o:
+	$(MAKE) -f CMakeFiles/rpizpot_2.dir/build.make CMakeFiles/rpizpot_2.dir/ft_make_precision.c.o
+.PHONY : ft_make_precision.c.o
+
+ft_make_precision.i: ft_make_precision.c.i
+
+.PHONY : ft_make_precision.i
+
+# target to preprocess a source file
+ft_make_precision.c.i:
+	$(MAKE) -f CMakeFiles/rpizpot_2.dir/build.make CMakeFiles/rpizpot_2.dir/ft_make_precision.c.i
+.PHONY : ft_make_precision.c.i
+
+ft_make_precision.s: ft_make_precision.c.s
+
+.PHONY : ft_make_precision.s
+
+# target to generate assembly for a file
+ft_make_precision.c.s:
+	$(MAKE) -f CMakeFiles/rpizpot_2.dir/build.make CMakeFiles/rpizpot_2.dir/ft_make_precision.c.s
+.PHONY : ft_make_precision.c.s
+
 ft_memalloc.o: ft_memalloc.c.o
 
 .PHONY : ft_memalloc.o
@@ -608,6 +716,33 @@ ft_memalloc.s: ft_memalloc.c.s
 ft_memalloc.c.s:
 	$(MAKE) -f CMakeFiles/rpizpot_2.dir/build.make CMakeFiles/rpizpot_2.dir/ft_memalloc.c.s
 .PHONY : ft_memalloc.c.s
+
+ft_minus_str.o: ft_minus_str.c.o
+
+.PHONY : ft_minus_str.o
+
+# target to build an object file
+ft_minus_str.c.o:
+	$(MAKE) -f CMakeFiles/rpizpot_2.dir/build.make CMakeFiles/rpizpot_2.dir/ft_minus_str.c.o
+.PHONY : ft_minus_str.c.o
+
+ft_minus_str.i: ft_minus_str.c.i
+
+.PHONY : ft_minus_str.i
+
+# target to preprocess a source file
+ft_minus_str.c.i:
+	$(MAKE) -f CMakeFiles/rpizpot_2.dir/build.make CMakeFiles/rpizpot_2.dir/ft_minus_str.c.i
+.PHONY : ft_minus_str.c.i
+
+ft_minus_str.s: ft_minus_str.c.s
+
+.PHONY : ft_minus_str.s
+
+# target to generate assembly for a file
+ft_minus_str.c.s:
+	$(MAKE) -f CMakeFiles/rpizpot_2.dir/build.make CMakeFiles/rpizpot_2.dir/ft_minus_str.c.s
+.PHONY : ft_minus_str.c.s
 
 ft_octal.o: ft_octal.c.o
 
@@ -716,6 +851,60 @@ ft_printf_f.s: ft_printf_f.c.s
 ft_printf_f.c.s:
 	$(MAKE) -f CMakeFiles/rpizpot_2.dir/build.make CMakeFiles/rpizpot_2.dir/ft_printf_f.c.s
 .PHONY : ft_printf_f.c.s
+
+ft_remake_str.o: ft_remake_str.c.o
+
+.PHONY : ft_remake_str.o
+
+# target to build an object file
+ft_remake_str.c.o:
+	$(MAKE) -f CMakeFiles/rpizpot_2.dir/build.make CMakeFiles/rpizpot_2.dir/ft_remake_str.c.o
+.PHONY : ft_remake_str.c.o
+
+ft_remake_str.i: ft_remake_str.c.i
+
+.PHONY : ft_remake_str.i
+
+# target to preprocess a source file
+ft_remake_str.c.i:
+	$(MAKE) -f CMakeFiles/rpizpot_2.dir/build.make CMakeFiles/rpizpot_2.dir/ft_remake_str.c.i
+.PHONY : ft_remake_str.c.i
+
+ft_remake_str.s: ft_remake_str.c.s
+
+.PHONY : ft_remake_str.s
+
+# target to generate assembly for a file
+ft_remake_str.c.s:
+	$(MAKE) -f CMakeFiles/rpizpot_2.dir/build.make CMakeFiles/rpizpot_2.dir/ft_remake_str.c.s
+.PHONY : ft_remake_str.c.s
+
+ft_size.o: ft_size.c.o
+
+.PHONY : ft_size.o
+
+# target to build an object file
+ft_size.c.o:
+	$(MAKE) -f CMakeFiles/rpizpot_2.dir/build.make CMakeFiles/rpizpot_2.dir/ft_size.c.o
+.PHONY : ft_size.c.o
+
+ft_size.i: ft_size.c.i
+
+.PHONY : ft_size.i
+
+# target to preprocess a source file
+ft_size.c.i:
+	$(MAKE) -f CMakeFiles/rpizpot_2.dir/build.make CMakeFiles/rpizpot_2.dir/ft_size.c.i
+.PHONY : ft_size.c.i
+
+ft_size.s: ft_size.c.s
+
+.PHONY : ft_size.s
+
+# target to generate assembly for a file
+ft_size.c.s:
+	$(MAKE) -f CMakeFiles/rpizpot_2.dir/build.make CMakeFiles/rpizpot_2.dir/ft_size.c.s
+.PHONY : ft_size.c.s
 
 ft_strcmp.o: ft_strcmp.c.o
 
@@ -986,6 +1175,60 @@ ft_strrjoin.s: ft_strrjoin.c.s
 ft_strrjoin.c.s:
 	$(MAKE) -f CMakeFiles/rpizpot_2.dir/build.make CMakeFiles/rpizpot_2.dir/ft_strrjoin.c.s
 .PHONY : ft_strrjoin.c.s
+
+ft_type_e.o: ft_type_e.c.o
+
+.PHONY : ft_type_e.o
+
+# target to build an object file
+ft_type_e.c.o:
+	$(MAKE) -f CMakeFiles/rpizpot_2.dir/build.make CMakeFiles/rpizpot_2.dir/ft_type_e.c.o
+.PHONY : ft_type_e.c.o
+
+ft_type_e.i: ft_type_e.c.i
+
+.PHONY : ft_type_e.i
+
+# target to preprocess a source file
+ft_type_e.c.i:
+	$(MAKE) -f CMakeFiles/rpizpot_2.dir/build.make CMakeFiles/rpizpot_2.dir/ft_type_e.c.i
+.PHONY : ft_type_e.c.i
+
+ft_type_e.s: ft_type_e.c.s
+
+.PHONY : ft_type_e.s
+
+# target to generate assembly for a file
+ft_type_e.c.s:
+	$(MAKE) -f CMakeFiles/rpizpot_2.dir/build.make CMakeFiles/rpizpot_2.dir/ft_type_e.c.s
+.PHONY : ft_type_e.c.s
+
+ft_type_e_l.o: ft_type_e_l.c.o
+
+.PHONY : ft_type_e_l.o
+
+# target to build an object file
+ft_type_e_l.c.o:
+	$(MAKE) -f CMakeFiles/rpizpot_2.dir/build.make CMakeFiles/rpizpot_2.dir/ft_type_e_l.c.o
+.PHONY : ft_type_e_l.c.o
+
+ft_type_e_l.i: ft_type_e_l.c.i
+
+.PHONY : ft_type_e_l.i
+
+# target to preprocess a source file
+ft_type_e_l.c.i:
+	$(MAKE) -f CMakeFiles/rpizpot_2.dir/build.make CMakeFiles/rpizpot_2.dir/ft_type_e_l.c.i
+.PHONY : ft_type_e_l.c.i
+
+ft_type_e_l.s: ft_type_e_l.c.s
+
+.PHONY : ft_type_e_l.s
+
+# target to generate assembly for a file
+ft_type_e_l.c.s:
+	$(MAKE) -f CMakeFiles/rpizpot_2.dir/build.make CMakeFiles/rpizpot_2.dir/ft_type_e_l.c.s
+.PHONY : ft_type_e_l.c.s
 
 ft_unsigned_int.o: ft_unsigned_int.c.o
 
@@ -1419,6 +1662,12 @@ help:
 	@echo "... ft_bzero.o"
 	@echo "... ft_bzero.i"
 	@echo "... ft_bzero.s"
+	@echo "... ft_color_print.o"
+	@echo "... ft_color_print.i"
+	@echo "... ft_color_print.s"
+	@echo "... ft_count_until.o"
+	@echo "... ft_count_until.i"
+	@echo "... ft_count_until.s"
 	@echo "... ft_float.o"
 	@echo "... ft_float.i"
 	@echo "... ft_float.s"
@@ -1428,6 +1677,9 @@ help:
 	@echo "... ft_int.o"
 	@echo "... ft_int.i"
 	@echo "... ft_int.s"
+	@echo "... ft_itoa.o"
+	@echo "... ft_itoa.i"
+	@echo "... ft_itoa.s"
 	@echo "... ft_long_composition.o"
 	@echo "... ft_long_composition.i"
 	@echo "... ft_long_composition.s"
@@ -1452,9 +1704,15 @@ help:
 	@echo "... ft_long_sum_dot.o"
 	@echo "... ft_long_sum_dot.i"
 	@echo "... ft_long_sum_dot.s"
+	@echo "... ft_make_precision.o"
+	@echo "... ft_make_precision.i"
+	@echo "... ft_make_precision.s"
 	@echo "... ft_memalloc.o"
 	@echo "... ft_memalloc.i"
 	@echo "... ft_memalloc.s"
+	@echo "... ft_minus_str.o"
+	@echo "... ft_minus_str.i"
+	@echo "... ft_minus_str.s"
 	@echo "... ft_octal.o"
 	@echo "... ft_octal.i"
 	@echo "... ft_octal.s"
@@ -1467,6 +1725,12 @@ help:
 	@echo "... ft_printf_f.o"
 	@echo "... ft_printf_f.i"
 	@echo "... ft_printf_f.s"
+	@echo "... ft_remake_str.o"
+	@echo "... ft_remake_str.i"
+	@echo "... ft_remake_str.s"
+	@echo "... ft_size.o"
+	@echo "... ft_size.i"
+	@echo "... ft_size.s"
 	@echo "... ft_strcmp.o"
 	@echo "... ft_strcmp.i"
 	@echo "... ft_strcmp.s"
@@ -1497,6 +1761,12 @@ help:
 	@echo "... ft_strrjoin.o"
 	@echo "... ft_strrjoin.i"
 	@echo "... ft_strrjoin.s"
+	@echo "... ft_type_e.o"
+	@echo "... ft_type_e.i"
+	@echo "... ft_type_e.s"
+	@echo "... ft_type_e_l.o"
+	@echo "... ft_type_e_l.i"
+	@echo "... ft_type_e_l.s"
 	@echo "... ft_unsigned_int.o"
 	@echo "... ft_unsigned_int.i"
 	@echo "... ft_unsigned_int.s"

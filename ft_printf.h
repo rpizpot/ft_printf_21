@@ -18,6 +18,8 @@
 #include <stdlib.h>
 #include <ctype.h>
 # define BUFF_SIZE 10000
+# define PF_RED "\033[31m"
+# define PF_RESET "\033[m"
 
 typedef struct s_list
 {
@@ -36,6 +38,7 @@ typedef struct s_list
 	char zero;
 	unsigned int width;
 	int precision;
+	char *color;
 }				t_list;
 
 typedef struct s_buf
@@ -114,5 +117,18 @@ void			ft_one(void *s, size_t len);
 void			ft_zero(void *s, size_t len);
 void			ft_bzero(void *s, size_t len);
 void			print_percent(t_list *print, t_buf *for_buf);
+char	        *ft_itoa(int n);
+char	        *ft_type_e(t_list *print);
+int		        ft_size(long int n);
+char            *ft_make_precision(char *c, int i);
+char	        *ft_right_precision(char *c, int i);
+char	        *ft_pow_long_z(long long e, long long k);
+char	        *ft_remake_str(char *c);
+int		        ft_count_until_one(char *c);
+char            *ft_make_precision(char *c, int i);
+char		    *ft_pow_long_x(long long e, unsigned long long k);
+char			*ft_type_e_l(t_list *print);
+char            *ft_make_minus_str(char *c);
+int				ft_color_print(t_list *print);
 
 #endif

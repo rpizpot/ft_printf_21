@@ -49,4 +49,12 @@ add_executable(rpizpot_2
 		parser_type.c
 		print_w_flag.c
 		reinicialization.c
-		what_print.c ft_one.c ft_zero.c until_per.c ft_bzero.c print_percent.c)
+		ft_itoa.c
+		ft_type_e.c
+		ft_size.c
+		ft_remake_str.c
+		ft_count_until.c
+		ft_make_precision.c
+		ft_type_e_l.c
+		ft_minus_str.c
+		what_print.c ft_one.c ft_zero.c until_per.c ft_bzero.c print_percent.c ft_color_print.c)

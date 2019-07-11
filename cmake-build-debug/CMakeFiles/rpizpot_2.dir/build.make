@@ -603,9 +603,113 @@ CMakeFiles/rpizpot_2.dir/reinicialization.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/rpizpot_2.dir/reinicialization.c.s"
 	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/rpizpot/ft_printf_team/rpizpot_2/reinicialization.c -o CMakeFiles/rpizpot_2.dir/reinicialization.c.s
 
+CMakeFiles/rpizpot_2.dir/ft_itoa.c.o: CMakeFiles/rpizpot_2.dir/flags.make
+CMakeFiles/rpizpot_2.dir/ft_itoa.c.o: ../ft_itoa.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/rpizpot/ft_printf_team/rpizpot_2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_43) "Building C object CMakeFiles/rpizpot_2.dir/ft_itoa.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/rpizpot_2.dir/ft_itoa.c.o   -c /Users/rpizpot/ft_printf_team/rpizpot_2/ft_itoa.c
+
+CMakeFiles/rpizpot_2.dir/ft_itoa.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/rpizpot_2.dir/ft_itoa.c.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/rpizpot/ft_printf_team/rpizpot_2/ft_itoa.c > CMakeFiles/rpizpot_2.dir/ft_itoa.c.i
+
+CMakeFiles/rpizpot_2.dir/ft_itoa.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/rpizpot_2.dir/ft_itoa.c.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/rpizpot/ft_printf_team/rpizpot_2/ft_itoa.c -o CMakeFiles/rpizpot_2.dir/ft_itoa.c.s
+
+CMakeFiles/rpizpot_2.dir/ft_type_e.c.o: CMakeFiles/rpizpot_2.dir/flags.make
+CMakeFiles/rpizpot_2.dir/ft_type_e.c.o: ../ft_type_e.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/rpizpot/ft_printf_team/rpizpot_2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_44) "Building C object CMakeFiles/rpizpot_2.dir/ft_type_e.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/rpizpot_2.dir/ft_type_e.c.o   -c /Users/rpizpot/ft_printf_team/rpizpot_2/ft_type_e.c
+
+CMakeFiles/rpizpot_2.dir/ft_type_e.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/rpizpot_2.dir/ft_type_e.c.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/rpizpot/ft_printf_team/rpizpot_2/ft_type_e.c > CMakeFiles/rpizpot_2.dir/ft_type_e.c.i
+
+CMakeFiles/rpizpot_2.dir/ft_type_e.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/rpizpot_2.dir/ft_type_e.c.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/rpizpot/ft_printf_team/rpizpot_2/ft_type_e.c -o CMakeFiles/rpizpot_2.dir/ft_type_e.c.s
+
+CMakeFiles/rpizpot_2.dir/ft_size.c.o: CMakeFiles/rpizpot_2.dir/flags.make
+CMakeFiles/rpizpot_2.dir/ft_size.c.o: ../ft_size.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/rpizpot/ft_printf_team/rpizpot_2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_45) "Building C object CMakeFiles/rpizpot_2.dir/ft_size.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/rpizpot_2.dir/ft_size.c.o   -c /Users/rpizpot/ft_printf_team/rpizpot_2/ft_size.c
+
+CMakeFiles/rpizpot_2.dir/ft_size.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/rpizpot_2.dir/ft_size.c.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/rpizpot/ft_printf_team/rpizpot_2/ft_size.c > CMakeFiles/rpizpot_2.dir/ft_size.c.i
+
+CMakeFiles/rpizpot_2.dir/ft_size.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/rpizpot_2.dir/ft_size.c.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/rpizpot/ft_printf_team/rpizpot_2/ft_size.c -o CMakeFiles/rpizpot_2.dir/ft_size.c.s
+
+CMakeFiles/rpizpot_2.dir/ft_remake_str.c.o: CMakeFiles/rpizpot_2.dir/flags.make
+CMakeFiles/rpizpot_2.dir/ft_remake_str.c.o: ../ft_remake_str.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/rpizpot/ft_printf_team/rpizpot_2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_46) "Building C object CMakeFiles/rpizpot_2.dir/ft_remake_str.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/rpizpot_2.dir/ft_remake_str.c.o   -c /Users/rpizpot/ft_printf_team/rpizpot_2/ft_remake_str.c
+
+CMakeFiles/rpizpot_2.dir/ft_remake_str.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/rpizpot_2.dir/ft_remake_str.c.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/rpizpot/ft_printf_team/rpizpot_2/ft_remake_str.c > CMakeFiles/rpizpot_2.dir/ft_remake_str.c.i
+
+CMakeFiles/rpizpot_2.dir/ft_remake_str.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/rpizpot_2.dir/ft_remake_str.c.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/rpizpot/ft_printf_team/rpizpot_2/ft_remake_str.c -o CMakeFiles/rpizpot_2.dir/ft_remake_str.c.s
+
+CMakeFiles/rpizpot_2.dir/ft_count_until.c.o: CMakeFiles/rpizpot_2.dir/flags.make
+CMakeFiles/rpizpot_2.dir/ft_count_until.c.o: ../ft_count_until.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/rpizpot/ft_printf_team/rpizpot_2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_47) "Building C object CMakeFiles/rpizpot_2.dir/ft_count_until.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/rpizpot_2.dir/ft_count_until.c.o   -c /Users/rpizpot/ft_printf_team/rpizpot_2/ft_count_until.c
+
+CMakeFiles/rpizpot_2.dir/ft_count_until.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/rpizpot_2.dir/ft_count_until.c.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/rpizpot/ft_printf_team/rpizpot_2/ft_count_until.c > CMakeFiles/rpizpot_2.dir/ft_count_until.c.i
+
+CMakeFiles/rpizpot_2.dir/ft_count_until.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/rpizpot_2.dir/ft_count_until.c.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/rpizpot/ft_printf_team/rpizpot_2/ft_count_until.c -o CMakeFiles/rpizpot_2.dir/ft_count_until.c.s
+
+CMakeFiles/rpizpot_2.dir/ft_make_precision.c.o: CMakeFiles/rpizpot_2.dir/flags.make
+CMakeFiles/rpizpot_2.dir/ft_make_precision.c.o: ../ft_make_precision.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/rpizpot/ft_printf_team/rpizpot_2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_48) "Building C object CMakeFiles/rpizpot_2.dir/ft_make_precision.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/rpizpot_2.dir/ft_make_precision.c.o   -c /Users/rpizpot/ft_printf_team/rpizpot_2/ft_make_precision.c
+
+CMakeFiles/rpizpot_2.dir/ft_make_precision.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/rpizpot_2.dir/ft_make_precision.c.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/rpizpot/ft_printf_team/rpizpot_2/ft_make_precision.c > CMakeFiles/rpizpot_2.dir/ft_make_precision.c.i
+
+CMakeFiles/rpizpot_2.dir/ft_make_precision.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/rpizpot_2.dir/ft_make_precision.c.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/rpizpot/ft_printf_team/rpizpot_2/ft_make_precision.c -o CMakeFiles/rpizpot_2.dir/ft_make_precision.c.s
+
+CMakeFiles/rpizpot_2.dir/ft_type_e_l.c.o: CMakeFiles/rpizpot_2.dir/flags.make
+CMakeFiles/rpizpot_2.dir/ft_type_e_l.c.o: ../ft_type_e_l.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/rpizpot/ft_printf_team/rpizpot_2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_49) "Building C object CMakeFiles/rpizpot_2.dir/ft_type_e_l.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/rpizpot_2.dir/ft_type_e_l.c.o   -c /Users/rpizpot/ft_printf_team/rpizpot_2/ft_type_e_l.c
+
+CMakeFiles/rpizpot_2.dir/ft_type_e_l.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/rpizpot_2.dir/ft_type_e_l.c.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/rpizpot/ft_printf_team/rpizpot_2/ft_type_e_l.c > CMakeFiles/rpizpot_2.dir/ft_type_e_l.c.i
+
+CMakeFiles/rpizpot_2.dir/ft_type_e_l.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/rpizpot_2.dir/ft_type_e_l.c.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/rpizpot/ft_printf_team/rpizpot_2/ft_type_e_l.c -o CMakeFiles/rpizpot_2.dir/ft_type_e_l.c.s
+
+CMakeFiles/rpizpot_2.dir/ft_minus_str.c.o: CMakeFiles/rpizpot_2.dir/flags.make
+CMakeFiles/rpizpot_2.dir/ft_minus_str.c.o: ../ft_minus_str.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/rpizpot/ft_printf_team/rpizpot_2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_50) "Building C object CMakeFiles/rpizpot_2.dir/ft_minus_str.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/rpizpot_2.dir/ft_minus_str.c.o   -c /Users/rpizpot/ft_printf_team/rpizpot_2/ft_minus_str.c
+
+CMakeFiles/rpizpot_2.dir/ft_minus_str.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/rpizpot_2.dir/ft_minus_str.c.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/rpizpot/ft_printf_team/rpizpot_2/ft_minus_str.c > CMakeFiles/rpizpot_2.dir/ft_minus_str.c.i
+
+CMakeFiles/rpizpot_2.dir/ft_minus_str.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/rpizpot_2.dir/ft_minus_str.c.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/rpizpot/ft_printf_team/rpizpot_2/ft_minus_str.c -o CMakeFiles/rpizpot_2.dir/ft_minus_str.c.s
+
 CMakeFiles/rpizpot_2.dir/what_print.c.o: CMakeFiles/rpizpot_2.dir/flags.make
 CMakeFiles/rpizpot_2.dir/what_print.c.o: ../what_print.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/rpizpot/ft_printf_team/rpizpot_2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_43) "Building C object CMakeFiles/rpizpot_2.dir/what_print.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/rpizpot/ft_printf_team/rpizpot_2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_51) "Building C object CMakeFiles/rpizpot_2.dir/what_print.c.o"
 	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/rpizpot_2.dir/what_print.c.o   -c /Users/rpizpot/ft_printf_team/rpizpot_2/what_print.c
 
 CMakeFiles/rpizpot_2.dir/what_print.c.i: cmake_force
@@ -618,7 +722,7 @@ CMakeFiles/rpizpot_2.dir/what_print.c.s: cmake_force
 
 CMakeFiles/rpizpot_2.dir/ft_one.c.o: CMakeFiles/rpizpot_2.dir/flags.make
 CMakeFiles/rpizpot_2.dir/ft_one.c.o: ../ft_one.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/rpizpot/ft_printf_team/rpizpot_2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_44) "Building C object CMakeFiles/rpizpot_2.dir/ft_one.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/rpizpot/ft_printf_team/rpizpot_2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_52) "Building C object CMakeFiles/rpizpot_2.dir/ft_one.c.o"
 	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/rpizpot_2.dir/ft_one.c.o   -c /Users/rpizpot/ft_printf_team/rpizpot_2/ft_one.c
 
 CMakeFiles/rpizpot_2.dir/ft_one.c.i: cmake_force
@@ -631,7 +735,7 @@ CMakeFiles/rpizpot_2.dir/ft_one.c.s: cmake_force
 
 CMakeFiles/rpizpot_2.dir/ft_zero.c.o: CMakeFiles/rpizpot_2.dir/flags.make
 CMakeFiles/rpizpot_2.dir/ft_zero.c.o: ../ft_zero.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/rpizpot/ft_printf_team/rpizpot_2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_45) "Building C object CMakeFiles/rpizpot_2.dir/ft_zero.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/rpizpot/ft_printf_team/rpizpot_2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_53) "Building C object CMakeFiles/rpizpot_2.dir/ft_zero.c.o"
 	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/rpizpot_2.dir/ft_zero.c.o   -c /Users/rpizpot/ft_printf_team/rpizpot_2/ft_zero.c
 
 CMakeFiles/rpizpot_2.dir/ft_zero.c.i: cmake_force
@@ -644,7 +748,7 @@ CMakeFiles/rpizpot_2.dir/ft_zero.c.s: cmake_force
 
 CMakeFiles/rpizpot_2.dir/ft_bzero.c.o: CMakeFiles/rpizpot_2.dir/flags.make
 CMakeFiles/rpizpot_2.dir/ft_bzero.c.o: ../ft_bzero.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/rpizpot/ft_printf_team/rpizpot_2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_46) "Building C object CMakeFiles/rpizpot_2.dir/ft_bzero.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/rpizpot/ft_printf_team/rpizpot_2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_54) "Building C object CMakeFiles/rpizpot_2.dir/ft_bzero.c.o"
 	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/rpizpot_2.dir/ft_bzero.c.o   -c /Users/rpizpot/ft_printf_team/rpizpot_2/ft_bzero.c
 
 CMakeFiles/rpizpot_2.dir/ft_bzero.c.i: cmake_force
@@ -657,7 +761,7 @@ CMakeFiles/rpizpot_2.dir/ft_bzero.c.s: cmake_force
 
 CMakeFiles/rpizpot_2.dir/print_percent.c.o: CMakeFiles/rpizpot_2.dir/flags.make
 CMakeFiles/rpizpot_2.dir/print_percent.c.o: ../print_percent.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/rpizpot/ft_printf_team/rpizpot_2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_47) "Building C object CMakeFiles/rpizpot_2.dir/print_percent.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/rpizpot/ft_printf_team/rpizpot_2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_55) "Building C object CMakeFiles/rpizpot_2.dir/print_percent.c.o"
 	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/rpizpot_2.dir/print_percent.c.o   -c /Users/rpizpot/ft_printf_team/rpizpot_2/print_percent.c
 
 CMakeFiles/rpizpot_2.dir/print_percent.c.i: cmake_force
@@ -667,6 +771,19 @@ CMakeFiles/rpizpot_2.dir/print_percent.c.i: cmake_force
 CMakeFiles/rpizpot_2.dir/print_percent.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/rpizpot_2.dir/print_percent.c.s"
 	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/rpizpot/ft_printf_team/rpizpot_2/print_percent.c -o CMakeFiles/rpizpot_2.dir/print_percent.c.s
+
+CMakeFiles/rpizpot_2.dir/ft_color_print.c.o: CMakeFiles/rpizpot_2.dir/flags.make
+CMakeFiles/rpizpot_2.dir/ft_color_print.c.o: ../ft_color_print.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/rpizpot/ft_printf_team/rpizpot_2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_56) "Building C object CMakeFiles/rpizpot_2.dir/ft_color_print.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/rpizpot_2.dir/ft_color_print.c.o   -c /Users/rpizpot/ft_printf_team/rpizpot_2/ft_color_print.c
+
+CMakeFiles/rpizpot_2.dir/ft_color_print.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/rpizpot_2.dir/ft_color_print.c.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/rpizpot/ft_printf_team/rpizpot_2/ft_color_print.c > CMakeFiles/rpizpot_2.dir/ft_color_print.c.i
+
+CMakeFiles/rpizpot_2.dir/ft_color_print.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/rpizpot_2.dir/ft_color_print.c.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/rpizpot/ft_printf_team/rpizpot_2/ft_color_print.c -o CMakeFiles/rpizpot_2.dir/ft_color_print.c.s
 
 # Object files for target rpizpot_2
 rpizpot_2_OBJECTS = \
@@ -712,11 +829,20 @@ rpizpot_2_OBJECTS = \
 "CMakeFiles/rpizpot_2.dir/parser_type.c.o" \
 "CMakeFiles/rpizpot_2.dir/print_w_flag.c.o" \
 "CMakeFiles/rpizpot_2.dir/reinicialization.c.o" \
+"CMakeFiles/rpizpot_2.dir/ft_itoa.c.o" \
+"CMakeFiles/rpizpot_2.dir/ft_type_e.c.o" \
+"CMakeFiles/rpizpot_2.dir/ft_size.c.o" \
+"CMakeFiles/rpizpot_2.dir/ft_remake_str.c.o" \
+"CMakeFiles/rpizpot_2.dir/ft_count_until.c.o" \
+"CMakeFiles/rpizpot_2.dir/ft_make_precision.c.o" \
+"CMakeFiles/rpizpot_2.dir/ft_type_e_l.c.o" \
+"CMakeFiles/rpizpot_2.dir/ft_minus_str.c.o" \
 "CMakeFiles/rpizpot_2.dir/what_print.c.o" \
 "CMakeFiles/rpizpot_2.dir/ft_one.c.o" \
 "CMakeFiles/rpizpot_2.dir/ft_zero.c.o" \
 "CMakeFiles/rpizpot_2.dir/ft_bzero.c.o" \
-"CMakeFiles/rpizpot_2.dir/print_percent.c.o"
+"CMakeFiles/rpizpot_2.dir/print_percent.c.o" \
+"CMakeFiles/rpizpot_2.dir/ft_color_print.c.o"
 
 # External object files for target rpizpot_2
 rpizpot_2_EXTERNAL_OBJECTS =
@@ -763,14 +889,23 @@ rpizpot_2: CMakeFiles/rpizpot_2.dir/parser_size.c.o
 rpizpot_2: CMakeFiles/rpizpot_2.dir/parser_type.c.o
 rpizpot_2: CMakeFiles/rpizpot_2.dir/print_w_flag.c.o
 rpizpot_2: CMakeFiles/rpizpot_2.dir/reinicialization.c.o
+rpizpot_2: CMakeFiles/rpizpot_2.dir/ft_itoa.c.o
+rpizpot_2: CMakeFiles/rpizpot_2.dir/ft_type_e.c.o
+rpizpot_2: CMakeFiles/rpizpot_2.dir/ft_size.c.o
+rpizpot_2: CMakeFiles/rpizpot_2.dir/ft_remake_str.c.o
+rpizpot_2: CMakeFiles/rpizpot_2.dir/ft_count_until.c.o
+rpizpot_2: CMakeFiles/rpizpot_2.dir/ft_make_precision.c.o
+rpizpot_2: CMakeFiles/rpizpot_2.dir/ft_type_e_l.c.o
+rpizpot_2: CMakeFiles/rpizpot_2.dir/ft_minus_str.c.o
 rpizpot_2: CMakeFiles/rpizpot_2.dir/what_print.c.o
 rpizpot_2: CMakeFiles/rpizpot_2.dir/ft_one.c.o
 rpizpot_2: CMakeFiles/rpizpot_2.dir/ft_zero.c.o
 rpizpot_2: CMakeFiles/rpizpot_2.dir/ft_bzero.c.o
 rpizpot_2: CMakeFiles/rpizpot_2.dir/print_percent.c.o
+rpizpot_2: CMakeFiles/rpizpot_2.dir/ft_color_print.c.o
 rpizpot_2: CMakeFiles/rpizpot_2.dir/build.make
 rpizpot_2: CMakeFiles/rpizpot_2.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/rpizpot/ft_printf_team/rpizpot_2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_48) "Linking C executable rpizpot_2"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/rpizpot/ft_printf_team/rpizpot_2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_57) "Linking C executable rpizpot_2"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/rpizpot_2.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

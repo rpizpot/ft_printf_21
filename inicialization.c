@@ -16,8 +16,9 @@ t_list *inicialization(t_list *print, t_buf **buf)
 {
 	print->i = 0;
 	print->flag = "-+ #0";
-	print->typical_type = "cspdiouxXf";
-	print->size = "hlL";
+	print->typical_type = "cspdiouxXfe";
+	print->size = "hlLjz";
+	print->color = ft_memalloc(7);
 	(*buf)->i = 0;
 	(*buf)->buf = ft_memalloc(BUFF_SIZE);
 	(*buf)->for_space = 0;

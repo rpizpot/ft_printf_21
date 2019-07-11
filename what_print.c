@@ -24,4 +24,6 @@ void what_print(t_list *print, t_buf *for_buf)
 		buffer(print, for_buf, ft_unsigned_int(print));
 	else if (print->type == 'f')
 		buffer(print, for_buf, ft_float(print));
+	else if (print->type == 'e' || print->type == 'E')
+	    buffer(print, for_buf, ft_type_e(print));
 }

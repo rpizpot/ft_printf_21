@@ -28,34 +28,7 @@ static void		ft_help_with_precision(char **d, int k)
 	ft_strdel(&a);
 }
 
-static char		*ft_right_precision(char *c, int i)
-{
-	int		j;
-	char	*d;
-	int		k;
-
-	k = i;
-	d = ft_strnew(get_before_dot_float(c) + i + 2);
-	j = 0;
-	while (c[j] != '.')
-	{
-		d[j] = c[j];
-		j++;
-	}
-	d[j] = c[j];
-	while (i != -1)
-	{
-		j++;
-		d[j] = c[j];
-		i--;
-	}
-	if (c[j + 1] >= '5')
-		ft_help_with_precision(&d, k);
-	ft_strdel(&c);
-	return (d);
-}
-
-static char		*ft_pow_long_x(long long e, unsigned long long k)
+char		*ft_pow_long_x(long long e, unsigned long long k)
 {
 	char		*c;
 	char		*d;

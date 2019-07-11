@@ -18,6 +18,9 @@ CMakeFiles/rpizpot_2.dir/ft_atoi_width.c.o: ../ft_printf.h
 
 CMakeFiles/rpizpot_2.dir/ft_bzero.c.o: ../ft_bzero.c
 
+CMakeFiles/rpizpot_2.dir/ft_count_until.c.o: ../ft_count_until.c
+CMakeFiles/rpizpot_2.dir/ft_count_until.c.o: ../ft_printf.h
+
 CMakeFiles/rpizpot_2.dir/ft_float.c.o: ../ft_float.c
 CMakeFiles/rpizpot_2.dir/ft_float.c.o: ../ft_printf.h
 
@@ -26,6 +29,9 @@ CMakeFiles/rpizpot_2.dir/ft_hex.c.o: ../ft_printf.h
 
 CMakeFiles/rpizpot_2.dir/ft_int.c.o: ../ft_int.c
 CMakeFiles/rpizpot_2.dir/ft_int.c.o: ../ft_printf.h
+
+CMakeFiles/rpizpot_2.dir/ft_itoa.c.o: ../ft_itoa.c
+CMakeFiles/rpizpot_2.dir/ft_itoa.c.o: ../ft_printf.h
 
 CMakeFiles/rpizpot_2.dir/ft_long_composition.c.o: ../ft_long_composition.c
 CMakeFiles/rpizpot_2.dir/ft_long_composition.c.o: ../ft_printf.h
@@ -51,8 +57,14 @@ CMakeFiles/rpizpot_2.dir/ft_long_sum.c.o: ../ft_printf.h
 CMakeFiles/rpizpot_2.dir/ft_long_sum_dot.c.o: ../ft_long_sum_dot.c
 CMakeFiles/rpizpot_2.dir/ft_long_sum_dot.c.o: ../ft_printf.h
 
+CMakeFiles/rpizpot_2.dir/ft_make_precision.c.o: ../ft_make_precision.c
+CMakeFiles/rpizpot_2.dir/ft_make_precision.c.o: ../ft_printf.h
+
 CMakeFiles/rpizpot_2.dir/ft_memalloc.c.o: ../ft_memalloc.c
 CMakeFiles/rpizpot_2.dir/ft_memalloc.c.o: ../ft_printf.h
+
+CMakeFiles/rpizpot_2.dir/ft_minus_str.c.o: ../ft_minus_str.c
+CMakeFiles/rpizpot_2.dir/ft_minus_str.c.o: ../ft_printf.h
 
 CMakeFiles/rpizpot_2.dir/ft_octal.c.o: ../ft_octal.c
 CMakeFiles/rpizpot_2.dir/ft_octal.c.o: ../ft_printf.h
@@ -65,6 +77,11 @@ CMakeFiles/rpizpot_2.dir/ft_printf.c.o: ../ft_printf.h
 
 CMakeFiles/rpizpot_2.dir/ft_printf_f.c.o: ../ft_printf.h
 CMakeFiles/rpizpot_2.dir/ft_printf_f.c.o: ../ft_printf_f.c
+
+CMakeFiles/rpizpot_2.dir/ft_remake_str.c.o: ../ft_printf.h
+CMakeFiles/rpizpot_2.dir/ft_remake_str.c.o: ../ft_remake_str.c
+
+CMakeFiles/rpizpot_2.dir/ft_size.c.o: ../ft_size.c
 
 CMakeFiles/rpizpot_2.dir/ft_strcmp.c.o: ../ft_printf.h
 CMakeFiles/rpizpot_2.dir/ft_strcmp.c.o: ../ft_strcmp.c
@@ -95,6 +112,12 @@ CMakeFiles/rpizpot_2.dir/ft_strnew_zero.c.o: ../ft_strnew_zero.c
 
 CMakeFiles/rpizpot_2.dir/ft_strrjoin.c.o: ../ft_printf.h
 CMakeFiles/rpizpot_2.dir/ft_strrjoin.c.o: ../ft_strrjoin.c
+
+CMakeFiles/rpizpot_2.dir/ft_type_e.c.o: ../ft_printf.h
+CMakeFiles/rpizpot_2.dir/ft_type_e.c.o: ../ft_type_e.c
+
+CMakeFiles/rpizpot_2.dir/ft_type_e_l.c.o: ../ft_printf.h
+CMakeFiles/rpizpot_2.dir/ft_type_e_l.c.o: ../ft_type_e_l.c
 
 CMakeFiles/rpizpot_2.dir/ft_unsigned_int.c.o: ../ft_printf.h
 CMakeFiles/rpizpot_2.dir/ft_unsigned_int.c.o: ../ft_unsigned_int.c

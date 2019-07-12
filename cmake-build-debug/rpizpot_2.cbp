@@ -190,6 +190,9 @@
 		<Unit filename="/Users/rpizpot/ft_printf_team/rpizpot_2/ft_strlen.c">
 			<Option target="rpizpot_2"/>
 		</Unit>
+		<Unit filename="/Users/rpizpot/ft_printf_team/rpizpot_2/ft_strncmp.c">
+			<Option target="rpizpot_2"/>
+		</Unit>
 		<Unit filename="/Users/rpizpot/ft_printf_team/rpizpot_2/ft_strnew.c">
 			<Option target="rpizpot_2"/>
 		</Unit>

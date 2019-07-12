@@ -57,4 +57,4 @@ add_executable(rpizpot_2
 		ft_make_precision.c
 		ft_type_e_l.c
 		ft_minus_str.c
-		what_print.c ft_one.c ft_zero.c until_per.c ft_bzero.c print_percent.c ft_color_print.c)
+		what_print.c ft_one.c ft_zero.c until_per.c ft_bzero.c print_percent.c ft_color_print.c ft_strncmp.c)

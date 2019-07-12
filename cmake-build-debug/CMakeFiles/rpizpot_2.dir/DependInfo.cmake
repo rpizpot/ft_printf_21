@@ -39,6 +39,7 @@ set(CMAKE_DEPENDS_CHECK_C
   "/Users/rpizpot/ft_printf_team/rpizpot_2/ft_strdup.c" "/Users/rpizpot/ft_printf_team/rpizpot_2/cmake-build-debug/CMakeFiles/rpizpot_2.dir/ft_strdup.c.o"
   "/Users/rpizpot/ft_printf_team/rpizpot_2/ft_strjoin.c" "/Users/rpizpot/ft_printf_team/rpizpot_2/cmake-build-debug/CMakeFiles/rpizpot_2.dir/ft_strjoin.c.o"
   "/Users/rpizpot/ft_printf_team/rpizpot_2/ft_strlen.c" "/Users/rpizpot/ft_printf_team/rpizpot_2/cmake-build-debug/CMakeFiles/rpizpot_2.dir/ft_strlen.c.o"
+  "/Users/rpizpot/ft_printf_team/rpizpot_2/ft_strncmp.c" "/Users/rpizpot/ft_printf_team/rpizpot_2/cmake-build-debug/CMakeFiles/rpizpot_2.dir/ft_strncmp.c.o"
   "/Users/rpizpot/ft_printf_team/rpizpot_2/ft_strnew.c" "/Users/rpizpot/ft_printf_team/rpizpot_2/cmake-build-debug/CMakeFiles/rpizpot_2.dir/ft_strnew.c.o"
   "/Users/rpizpot/ft_printf_team/rpizpot_2/ft_strnew_one.c" "/Users/rpizpot/ft_printf_team/rpizpot_2/cmake-build-debug/CMakeFiles/rpizpot_2.dir/ft_strnew_one.c.o"
   "/Users/rpizpot/ft_printf_team/rpizpot_2/ft_strnew_zero.c" "/Users/rpizpot/ft_printf_team/rpizpot_2/cmake-build-debug/CMakeFiles/rpizpot_2.dir/ft_strnew_zero.c.o"

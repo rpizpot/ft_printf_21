@@ -24,24 +24,41 @@ char *ft_until_per(t_list **print)
 		if ((*print)->copy[(*print)->i] == '{')
 		{
 			j = 0;
-			while (j <= 6 && ((*print)->copy[(*print)->i + j]) != '}')
+			while (j <= 8 && (*print)->copy[(*print)->i + j] != '%'
+			&& (*print)->copy[(*print)->i + j] != '\0')
 			{
-				(*print)->color[j] = (*print)->copy[(*print)->i + j];
+				if (((*print)->copy[(*print)->i + j]) != '}')
+					(*print)->color[j] = (*print)->copy[(*print)->i + j];
+				else
+				{
+					(*print)->color[j] = (*print)->copy[(*print)->i + j];
+					break ;
+				}
 				j++;
 			}
-			if (!ft_color_print(*print))
+			if (ft_color_print(*print))
+				i -= 2;
+			else
 			{
-				(*print)->i += j - 1;
 				i += j - 1;
+				ft_bzero((*print)->color, 9);
 			}
+			(*print)->i += j - 1;
 		}
 		i++;
 		((*print)->i)++;
 	}
 	str = ft_strnew(i);
-	((*print)->i) = ((*print)->i) - i;
+	((*print)->i) = ((*print)->i) - i - ft_strlen((*print)->color);
 	i = 0;
 	while ((*print)->copy[(*print)->i] != '%' && (*print)->copy[(*print)->i] != '\0')
-		str[i++] = (*print)->copy[((*print)->i)++];
+	{
+		if (ft_color_print(*print) && (*print)->copy[(*print)->i] == '{'
+		&& !ft_strncmp((*print)->color, &((*print)->copy[(*print)->i]), ft_strlen((*print)->color)))
+			((*print)->i) += ft_strlen((*print)->color);
+		if ((*print)->copy[(*print)->i] != '%' && (*print)->copy[(*print)->i] != '\0')
+			str[i++] = (*print)->copy[((*print)->i)++];
+	}
+	ft_bzero((*print)->color, 9);
 	return (str);
 }

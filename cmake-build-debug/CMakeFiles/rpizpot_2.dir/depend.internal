@@ -18,6 +18,9 @@ CMakeFiles/rpizpot_2.dir/ft_atoi_width.c.o
  /Users/rpizpot/ft_printf_team/rpizpot_2/ft_printf.h
 CMakeFiles/rpizpot_2.dir/ft_bzero.c.o
  /Users/rpizpot/ft_printf_team/rpizpot_2/ft_bzero.c
+CMakeFiles/rpizpot_2.dir/ft_color_print.c.o
+ /Users/rpizpot/ft_printf_team/rpizpot_2/ft_color_print.c
+ /Users/rpizpot/ft_printf_team/rpizpot_2/ft_printf.h
 CMakeFiles/rpizpot_2.dir/ft_count_until.c.o
  /Users/rpizpot/ft_printf_team/rpizpot_2/ft_count_until.c
  /Users/rpizpot/ft_printf_team/rpizpot_2/ft_printf.h
@@ -101,6 +104,9 @@ CMakeFiles/rpizpot_2.dir/ft_strjoin.c.o
 CMakeFiles/rpizpot_2.dir/ft_strlen.c.o
  /Users/rpizpot/ft_printf_team/rpizpot_2/ft_printf.h
  /Users/rpizpot/ft_printf_team/rpizpot_2/ft_strlen.c
+CMakeFiles/rpizpot_2.dir/ft_strncmp.c.o
+ /Users/rpizpot/ft_printf_team/rpizpot_2/ft_printf.h
+ /Users/rpizpot/ft_printf_team/rpizpot_2/ft_strncmp.c
 CMakeFiles/rpizpot_2.dir/ft_strnew.c.o
  /Users/rpizpot/ft_printf_team/rpizpot_2/ft_printf.h
  /Users/rpizpot/ft_printf_team/rpizpot_2/ft_strnew.c

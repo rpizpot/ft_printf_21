@@ -99,6 +99,7 @@ void			ft_printf_s(char *str);
 void			ft_atoi_base(long int nbr, int base);
 int				ft_strcmp(const char *s1, const char *s2);
 char			*ft_strnew(size_t size);
+int				ft_strncmp(const char *s1, const char *s2, size_t n);
 char			*ft_until_per(t_list **print);
 char			*ft_strcpy(char *dst, const char *src);
 char			*ft_strdup(const char *str);

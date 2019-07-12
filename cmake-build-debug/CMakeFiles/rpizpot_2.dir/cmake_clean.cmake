@@ -55,6 +55,7 @@ file(REMOVE_RECURSE
   "CMakeFiles/rpizpot_2.dir/ft_bzero.c.o"
   "CMakeFiles/rpizpot_2.dir/print_percent.c.o"
   "CMakeFiles/rpizpot_2.dir/ft_color_print.c.o"
+  "CMakeFiles/rpizpot_2.dir/ft_strncmp.c.o"
   "rpizpot_2.pdb"
   "rpizpot_2"
 )

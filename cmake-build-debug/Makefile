@@ -1068,6 +1068,33 @@ ft_strlen.c.s:
 	$(MAKE) -f CMakeFiles/rpizpot_2.dir/build.make CMakeFiles/rpizpot_2.dir/ft_strlen.c.s
 .PHONY : ft_strlen.c.s
 
+ft_strncmp.o: ft_strncmp.c.o
+
+.PHONY : ft_strncmp.o
+
+# target to build an object file
+ft_strncmp.c.o:
+	$(MAKE) -f CMakeFiles/rpizpot_2.dir/build.make CMakeFiles/rpizpot_2.dir/ft_strncmp.c.o
+.PHONY : ft_strncmp.c.o
+
+ft_strncmp.i: ft_strncmp.c.i
+
+.PHONY : ft_strncmp.i
+
+# target to preprocess a source file
+ft_strncmp.c.i:
+	$(MAKE) -f CMakeFiles/rpizpot_2.dir/build.make CMakeFiles/rpizpot_2.dir/ft_strncmp.c.i
+.PHONY : ft_strncmp.c.i
+
+ft_strncmp.s: ft_strncmp.c.s
+
+.PHONY : ft_strncmp.s
+
+# target to generate assembly for a file
+ft_strncmp.c.s:
+	$(MAKE) -f CMakeFiles/rpizpot_2.dir/build.make CMakeFiles/rpizpot_2.dir/ft_strncmp.c.s
+.PHONY : ft_strncmp.c.s
+
 ft_strnew.o: ft_strnew.c.o
 
 .PHONY : ft_strnew.o
@@ -1749,6 +1776,9 @@ help:
 	@echo "... ft_strlen.o"
 	@echo "... ft_strlen.i"
 	@echo "... ft_strlen.s"
+	@echo "... ft_strncmp.o"
+	@echo "... ft_strncmp.i"
+	@echo "... ft_strncmp.s"
 	@echo "... ft_strnew.o"
 	@echo "... ft_strnew.i"
 	@echo "... ft_strnew.s"

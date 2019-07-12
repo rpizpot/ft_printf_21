@@ -14,7 +14,8 @@ int main()
 	join = ft_strjoin(PF_RESET, str);
 
 	write(1, PF_RESET, ft_strlen(PF_RESET));
-	ft_printf("%d\n", ft_strlen(PF_RESET));
+	printf("%d\n", ft_strlen("12345{red6789"));
+	ft_printf("12345{yellow}6789%d\n", ft_strlen(PF_RESET));
 	write(1, join, ft_strlen(join));
     printf("%030Le\n", d);
 	return 0;

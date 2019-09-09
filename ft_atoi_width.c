@@ -9,16 +9,23 @@
 /*   Updated: 2019/06/24 19:28:58 by rpizpot          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
+
 #include "ft_printf.h"
 
-t_list *ft_atoi_width(t_list *print)
+t_list	*ft_atoi_width(t_list *print)
 {
 	if (print->copy[print->i] == '*')
 	{
 		print->width = va_arg(print->ap, unsigned int);
 		print->i++;
-		return (print);
+		if (print->width < 0)
+		{
+			print->width *= -1;
+			print->minus = '-';
+		}
 	}
+	if (print->copy[print->i] >= '0' && print->copy[print->i] <= '9')
+		print->width = 0;
 	while (print->copy[print->i] >= '0' && print->copy[print->i] <= '9')
 	{
 		print->width = print->width * 10 + (print->copy[print->i] - '0');

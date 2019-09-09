@@ -12,13 +12,14 @@
 
 #include "ft_printf.h"
 
-t_list *inicialization(t_list *print, t_buf **buf)
+t_list	*inicialization(t_list *print, t_buf **buf)
 {
 	print->i = 0;
 	print->flag = "-+ #0";
 	print->typical_type = "cspdiouxXfe";
 	print->size = "hlLjz";
 	print->color = ft_memalloc(9);
+	print->len = 0;
 	(*buf)->i = 0;
 	(*buf)->buf = ft_memalloc(BUFF_SIZE);
 	(*buf)->for_space = 0;

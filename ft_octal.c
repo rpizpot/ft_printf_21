@@ -18,12 +18,8 @@ char	*octal(uintmax_t n)
 	size_t		i;
 	char		*d;
 
-	/*if (print->precision == 0)
-		return (ft_strdup(""));*/
 	c = "01234567";
 	i = count_numbers(n, 8) - 1;
-	/*if (n == 0)
-		flag->octotorp = 0;*/
 	d = ft_strnew(i + 1);
 	if (n == 0)
 		return (ft_strdup("0"));
@@ -44,16 +40,19 @@ char	*ft_octal(t_list *print)
 	if (ft_strcmp(print->p_size, "") == 0)
 		d = (uintmax_t)va_arg(print->ap, unsigned int);
 	else if (ft_strcmp(print->p_size, "h") == 0)
-		d = (uintmax_t)((char)va_arg(print->ap, unsigned int));
+		d = (uintmax_t)((unsigned short int)va_arg(print->ap, unsigned int));
 	else if (ft_strcmp(print->p_size, "ll") == 0)
 		d = (uintmax_t)va_arg(print->ap, unsigned long long);
 	else if (ft_strcmp(print->p_size, "hh") == 0)
-		d = (uintmax_t)((short)va_arg(print->ap, unsigned int));
+		d = (uintmax_t)((unsigned char)va_arg(print->ap, unsigned int));
 	else if (ft_strcmp(print->p_size, "l") == 0)
 		d = (uintmax_t)va_arg(print->ap, unsigned long);
 	else if (ft_strcmp(print->p_size, "z") == 0)
 		d = (uintmax_t)va_arg(print->ap, size_t);
 	else if (ft_strcmp(print->p_size, "j") == 0)
 		d = (uintmax_t)va_arg(print->ap, uintmax_t);
+	if (d == 0 && (print->precision == 0))
+		return (ft_strdup(""));
+	print->lattice = (d == 0) ? 0 : print->lattice;
 	return (octal(d));
 }

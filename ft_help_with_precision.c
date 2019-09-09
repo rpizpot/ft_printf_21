@@ -1,27 +1,29 @@
 /* ************************************************************************** */
 /*                                                                            */
 /*                                                        :::      ::::::::   */
-/*   ft_strncmp.c                                       :+:      :+:    :+:   */
+/*   ft_help_with_precision.c                           :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
 /*   By: rpizpot <marvin@42.fr>                     +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2019/07/12 15:36:10 by rpizpot           #+#    #+#             */
-/*   Updated: 2019/07/12 15:36:10 by rpizpot          ###   ########.fr       */
+/*   Created: 2019/07/28 12:55:07 by rpizpot           #+#    #+#             */
+/*   Updated: 2019/07/28 12:55:07 by rpizpot          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "ft_printf.h"
 
-int	ft_strncmp(const char *s1, const char *s2, size_t n)
+void	ft_help_with_precision(char **d, int k)
 {
-	size_t i;
+	char	*x;
+	char	*c;
+	char	*a;
+	char	*y;
 
-	i = 0;
-	while (i < n && (s1[i] != '\0' || s2[i] != '\0'))
-	{
-		if ((s1[i] - s2[i]) != 0)
-			return (((unsigned char *)s1)[i] - ((unsigned char *)s2)[i]);
-		i++;
-	}
-	return (0);
+	c = *d;
+	x = ft_strjoin(ft_strdup("0."), ft_strnew_zero(k));
+	a = ft_strjoin(x, ft_strdup("1"));
+	y = ft_long_sum_dot(c, a);
+	ft_strdel(&c);
+	*d = y;
+	ft_strdel(&a);
 }

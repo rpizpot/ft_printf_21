@@ -31,12 +31,7 @@ static char			*ft_ten(uintmax_t d)
 	char	*c;
 	int		i;
 	char	*k;
-/*
- * again
-	if (flag->precision == 0)
-		return (ft_strdup(""));
 
-*/
 	if (d == 0)
 		return (ft_strdup("0"));
 	c = "0123456789";
@@ -59,16 +54,18 @@ char				*ft_unsigned_int(t_list *print)
 	if (ft_strcmp(print->p_size, "") == 0)
 		d = (uintmax_t)va_arg(print->ap, unsigned int);
 	else if (ft_strcmp(print->p_size, "h") == 0)
-		d = (uintmax_t)((char)va_arg(print->ap, unsigned int));
+		d = (uintmax_t)((unsigned short int)va_arg(print->ap, unsigned int));
 	else if (ft_strcmp(print->p_size, "ll") == 0)
 		d = (uintmax_t)va_arg(print->ap, unsigned long long);
 	else if (ft_strcmp(print->p_size, "hh") == 0)
-		d = (uintmax_t)((short)va_arg(print->ap, unsigned int));
+		d = (uintmax_t)((unsigned char)va_arg(print->ap, unsigned int));
 	else if (ft_strcmp(print->p_size, "l") == 0)
 		d = (uintmax_t)va_arg(print->ap, unsigned long);
 	else if (ft_strcmp(print->p_size, "z") == 0)
 		d = (uintmax_t)va_arg(print->ap, size_t);
 	else if (ft_strcmp(print->p_size, "j") == 0)
 		d = (uintmax_t)va_arg(print->ap, uintmax_t);
+	if (d == 0 && (print->precision == 0))
+		return (ft_strdup(""));
 	return ((ft_ten(d)));
 }

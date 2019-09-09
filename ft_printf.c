@@ -6,53 +6,56 @@
 /*   By: rpizpot <marvin@42.fr>                     +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2019/05/17 19:57:12 by rpizpot           #+#    #+#             */
-/*   Updated: 2019/05/17 21:29:00 by rpizpot          ###   ########.fr       */
+/*   Updated: 2019/07/28 15:03:32 by hlarson          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "ft_printf.h"
 
-int ft_printf(const char *format, ...)
+t_buf	*parser_str(t_list *print, t_buf *for_buf)
 {
-	t_list *print;
-	t_buf  *for_buf;
+	char *str;
 
-	if(!(print = (t_list *)malloc(sizeof(t_list))))
-		return (0);
-	print->copy = format;
-	if(!(for_buf = (t_buf *)malloc(sizeof(t_buf))))
-		return (0);
-	inicialization(print, &for_buf);
-	va_start(print->ap, format);
-	while(print->copy[print->i])
+	str = NULL;
+	while (print->copy[print->i])
 	{
 		if (print->copy[print->i] == '%')
 		{
 			parser(print, for_buf);
-			print->i++;
+			if (print->copy[print->i])
+				print->i++;
 		}
 		else
 		{
 			reinicialization(print, &for_buf);
-			buffer(print, for_buf, ft_until_per(&print));
+			buffer(print, for_buf, (str = ft_until_per(&print)));
+			ft_strdel(&str);
 		}
 	}
+	return (for_buf);
+}
+
+int		ft_printf(const char *format, ...)
+{
+	t_list	*print;
+	t_buf	*for_buf;
+	int		len;
+
+	if (!(print = (t_list *)malloc(sizeof(t_list))) ||
+	!(for_buf = (t_buf *)malloc(sizeof(t_buf))))
+		return (0);
+	print->copy = format;
+	inicialization(print, &for_buf);
+	va_start(print->ap, format);
+	parser_str(print, for_buf);
 	va_end(print->ap);
 	write(1, for_buf->buf, for_buf->i);
-	/*while (*format)
-	{
-		if (*format == '%')
-		{
-			format++;
-			if (*format == 'c')
-				ft_printf_c(va_arg(ap, char));
-			if(*format == 's')
-				ft_printf_s(va_arg(ap, char *));
-			if (*format == 'p')
-				ft_printf_p((long int)va_arg(ap, void *));
-		}
-		ft_printf_c(*format);
-		format++;
-	}
-	va_end(ap);*/
+	if (print->color)
+		ft_strdel(&(print)->color);
+	if (for_buf->buf)
+		ft_strdel(&(for_buf)->buf);
+	len = print->len + for_buf->i;
+	free(print);
+	free(for_buf);
+	return (len);
 }

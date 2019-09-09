@@ -6,29 +6,13 @@
 /*   By: hlarson <marvin@42.fr>                     +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2018/11/30 19:16:04 by hlarson           #+#    #+#             */
-/*   Updated: 2019/07/05 19:16:44 by hlarson          ###   ########.fr       */
+/*   Updated: 2019/07/17 18:46:47 by hlarson          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "ft_printf.h"
 
-static void		ft_help_with_precision(char **d, int k)
-{
-	char	*x;
-	char	*c;
-	char	*a;
-	char	*y;
-
-	c = *d;
-	x = ft_strjoin(ft_strdup("0."), ft_strnew_zero(k));
-	a = ft_strjoin(x, ft_strdup("1"));
-	y = ft_long_sum_dot(c, a);
-	ft_strdel(&c);
-	*d = y;
-	ft_strdel(&a);
-}
-
-char		*ft_pow_long_x(long long e, unsigned long long k)
+char			*ft_pow_long_x(long long e, unsigned long long k)
 {
 	char		*c;
 	char		*d;
@@ -54,13 +38,12 @@ char		*ft_pow_long_x(long long e, unsigned long long k)
 	return (d);
 }
 
-static char		*ft_create_float(long double d, int i)
+static char		*ft_create_float(long double d, int i, t_list *print)
 {
 	char					*c;
 	unsigned long long		k;
 	int						s;
 	long long				e;
-	int						j;
 
 	i--;
 	u_q.ld = d;
@@ -68,25 +51,19 @@ static char		*ft_create_float(long double d, int i)
 	e = (u_q.x[1] & 0x7FFF) - 16383;
 	k = (u_q.x[0] & 0xffffffffffffffff);
 	c = ft_pow_long_x(e, k);
-	j = get_after_dot_float(c);
-	if (i == j)
-		c = ft_strjoin(c, ft_strdup("0"));
-	if (i > j)
-		c = ft_strjoin(c, ft_strnew_zero(i - j + 1));
-	if (i < j)
-		c = ft_right_precision(c, i);
+	c = ft_make_precision(c, i, print);
 	c = (s == 1) ? ft_strjoin(ft_strdup("-"), c) : c;
 	return (c);
 }
 
 char			*ft_long_double(t_list *print)
 {
-	double	d;
-	int		i;
+	long double	d;
+	int			i;
 
 	i = 6;
 	d = va_arg(print->ap, long double);
 	if (print->precision != -1)
 		i = print->precision;
-	return (ft_create_float(d, i));
+	return (ft_create_float(d, i, print));
 }

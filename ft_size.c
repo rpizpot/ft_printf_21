@@ -12,15 +12,15 @@
 
 int		ft_size(long int n)
 {
-    unsigned int i;
+	unsigned int i;
 
-    i = 0;
-    if (n == 0)
-        i++;
-    while (n > 0)
-    {
-        i++;
-        n /= 10;
-    }
-    return (i);
+	i = 0;
+	if (n == 0)
+		i++;
+	while (n > 0)
+	{
+		i++;
+		n /= 10;
+	}
+	return (i);
 }

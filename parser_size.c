@@ -12,7 +12,7 @@
 
 #include "ft_printf.h"
 
-t_list *parser_size(t_list *print)
+t_list	*parser_size(t_list *print)
 {
 	size_t i;
 	size_t j;

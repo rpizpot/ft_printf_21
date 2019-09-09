@@ -12,14 +12,14 @@
 
 #include "ft_printf.h"
 
-t_list *reinicialization(t_list *print, t_buf **buf)
+t_list	*reinicialization(t_list *print, t_buf **buf)
 {
 	print->type = '\0';
 	print->minus = '\0';
 	print->plus = '\0';
 	print->space = '\0';
 	print->lattice = '\0';
-	print->zero  = ' ';
+	print->zero = ' ';
 	print->p_size[0] = '\0';
 	print->p_size[1] = '\0';
 	print->p_size[2] = '\0';

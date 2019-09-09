@@ -1,21 +1,33 @@
 /* ************************************************************************** */
 /*                                                                            */
 /*                                                        :::      ::::::::   */
-/*   ft_printf_f.c                                      :+:      :+:    :+:   */
+/*   ft_point.c                                         :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
 /*   By: rpizpot <marvin@42.fr>                     +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2019/06/26 19:46:01 by rpizpot           #+#    #+#             */
-/*   Updated: 2019/06/26 19:46:01 by rpizpot          ###   ########.fr       */
+/*   Created: 2019/07/16 13:50:17 by rpizpot           #+#    #+#             */
+/*   Updated: 2019/07/16 13:50:17 by rpizpot          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "ft_printf.h"
 
-void ft_printf_f(t_list *print)
+char	*ft_point(long int n, t_list *print)
 {
-	float f;
+	char				*c;
+	size_t				i;
+	char				*x;
 
-	f = va_arg(print->ap, float);
-
+	c = "0123456789abcdef";
+	i = count_numbers(n, 16) - 1;
+	x = ft_strnew(i + 1);
+	if (n == 0)
+		return ((print->precision == 0) ? ft_strdup("") : ft_strdup("0"));
+	while (n)
+	{
+		x[i] = c[n % 16];
+		n /= 16;
+		i--;
+	}
+	return (x);
 }

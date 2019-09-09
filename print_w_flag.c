@@ -6,15 +6,15 @@
 /*   By: rpizpot <marvin@42.fr>                     +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2019/06/25 18:54:48 by rpizpot           #+#    #+#             */
-/*   Updated: 2019/06/25 18:54:48 by rpizpot          ###   ########.fr       */
+/*   Updated: 2019/07/17 18:29:29 by hlarson          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "ft_printf.h"
 
-void print_w_flag(char c, int i)
+void	print_w_flag(char c, int i)
 {
-	size_t k;
+	int		k;
 
 	k = 0;
 	while (k < i)
